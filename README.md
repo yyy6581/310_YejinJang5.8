@@ -1,26 +1,18 @@
-# 310_Triggers5.4
+# GAME 310 – Traversal Level
 
-TO GET ALL ASSETS YOU MUST CLONE THIS REPOSITORY!
-You can open the project in UE 5.4 or later. Please build the lighting after you install.
+## Unreal Engine Version
+Unreal Engine 5.8
 
-Game Design Project Repository This repository contains an Unreal Engine project for my Digital Game Design class, showcasing various interactive elements and mechanics. The goal is to build and update a comprehensive demo environment with functionality across landscapes, materials, physics, lighting, audio, and more.
+## How to Play
+1. Clone the GitHub repository.
+2. Open the `.uproject` file in Unreal Engine 5.8.
+3. Open the level and press Play.
 
-Features Environment and Visual Elements Landscape: A simple sculpted environment without a custom material. Materials: Examples of different materials with varied properties, including reflective, emissive, and various other surfaces. Lighting: Static and dynamic lighting, with functional light setups for atmosphere and immersion. Light Function: Dynamic effects to create light flicker.
+**Controls:** WASD to move, Mouse to look, Space to jump, ESC to pause.
 
-Interactive Elements and Mechanics Puzzles: Engaging puzzles that test player interactions within the environment. Triggering: Elements such as audio, lights, particles, materials, physics, etc.
+## Intended Experience and Mood
+This level is inspired by a real-world walking route from an apartment to a convenience store. Cool and warm lighting, sound effects, and interactive puzzles create an immersive exploration experience.
 
-Gameplay Mechanics Physics: Interactive physics objects that respond to player and environmental influences. Teleporting: Player teleportation mechanics for seamless movement across the environment. Fade to Black (Sequencer): Transition effects using Sequencer to manage in-game scenes and cutaways. Destroy a Mesh: Functionality to destroy objects on specific triggers or conditions. Launch Character and Ragdoll: Character launching and ragdoll mechanics for dynamic player interactions.
+## Known Issues
+Lighting and shaders may take time to load when first opening the project.
 
-Getting Started Clone the repository:
-
-Open in Unreal Engine: Open the project in Unreal Engine (Version 5.3 or above).
-
-Explore the Level: Test out each feature in the designated zones of the map.
-
-Planned Updates Future updates will incorporate:
-
-Additional interactivity Three puzzle examples: lock and key, ordered, and a two-item puzzle.
-
-New environments and themes Further integrations with player feedback and input mechanisms are possible in future updates.
-
-License This project is licensed under the MIT License. See LICENSE for more information.
